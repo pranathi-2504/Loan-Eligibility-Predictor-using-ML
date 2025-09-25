@@ -597,7 +597,7 @@ st.markdown("""
     <div class='creator-credit'>
         <div style='font-size: 1.2rem; margin-bottom: 0.5rem;'>✨ Created by</div>
         <div style='font-size: 1.5rem; font-weight: 700; text-shadow: 0 0 15px rgba(0, 255, 255, 0.8);'>
-            Sai Giri Sekhara Vamsi Chinta
+            Viswanadhula G V Mani Prabha
         </div>
         <div style='font-size: 0.9rem; margin-top: 0.5rem; color: #b0b0b0;'>
             Loan Eligibility Predictor

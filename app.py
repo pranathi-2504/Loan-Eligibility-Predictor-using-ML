@@ -582,15 +582,27 @@ col9, col10, col11 = st.columns(3)
 
 with col9:
     if os.path.exists("roc_curve.png"):
-        st.image(Image.open("roc_curve.png"), caption="ROC Curve Analysis", use_column_width=True)
+    st.image(
+        "roc_curve.png",
+        caption="ROC Curve Analysis",
+        use_container_width=True
+    )
 
 with col10:
     if os.path.exists("rf_confusion_matrix.png"):
-        st.image(Image.open("rf_confusion_matrix.png"), caption="Random Forest Confusion Matrix", use_column_width=True)
+    st.image(
+        "rf_confusion_matrix.png",
+        caption="Random Forest Confusion Matrix",
+        use_container_width=True
+    )
 
 with col11:
-    if os.path.exists("lr_confusion_matrix.png"):
-        st.image(Image.open("lr_confusion_matrix.png"), caption="Logistic Regression Confusion Matrix", use_column_width=True)
+  if os.path.exists("lr_confusion_matrix.png"):
+    st.image(
+        "lr_confusion_matrix.png",
+        caption="Logistic Regression Confusion Matrix",
+        use_container_width=True
+    )
 
 # Creator Credit
 st.markdown("""

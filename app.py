@@ -581,7 +581,7 @@ st.markdown("<div class='section-header'>📈 Model Evaluation</div>", unsafe_al
 col9, col10, col11 = st.columns(3)
 
 with col9:
-    if os.path.exists("roc_curve.png"):
+if os.path.exists("roc_curve.png"):
     st.image(
         "roc_curve.png",
         caption="ROC Curve Analysis",
@@ -589,7 +589,7 @@ with col9:
     )
 
 with col10:
-    if os.path.exists("rf_confusion_matrix.png"):
+if os.path.exists("rf_confusion_matrix.png"):
     st.image(
         "rf_confusion_matrix.png",
         caption="Random Forest Confusion Matrix",
